@@ -1,0 +1,155 @@
+.circle {
+    height: 600px;
+    width: 600px;
+    border-radius: 50%;
+  background-color: rgba(61, 153, 112, 1);
+  animation-name: test;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes test{
+   0% {background-color: rgba(61, 153, 112, 1);}
+   25% {background-color: rgba(61, 153, 112, 1)}
+   50% {background-color: rgba(72, 65, 156, 1);}
+   75% {background-color: rgba(61, 153, 112, 1);}
+   100% {background-color: rgba(61, 153, 112, 1);}
+}
+
+.circle2 {
+   height: 400px;
+   width: 400px;
+   border-radius: 50%;
+   background-color: rgba(61, 153, 112, 0.8);
+   animation-name: test2;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes test2{
+   0% {background-color: rgba(61, 153, 112, 0.8);}
+   25% {background-color: rgba(255, 113, 11, 0.8)}
+   50% {background-color: rgba(72, 65, 156, 0.8);}
+   75% {background-color: rgba(255, 204, 0, 0.8);}
+   100% {background-color: rgba(61, 153, 112, 0.8);}
+}
+
+.circle3{
+   height: 200px;
+   width: 200px;
+   border-radius: 50%;
+   background-color: rgba(61, 153, 112, 0.6);
+   animation-name: test3;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes test3{
+   0% {background-color: rgba(61, 153, 112, 0.6);}
+   13%{background-color: rgba(255, 13, 0, 0.6);}
+   25% {background-color: rgba(255, 113, 11, 0.6)}
+   50% {background-color: rgba(72, 65, 156, 0.6);}
+   63% {background-color: rgba(53, 255, 2, 0.6);}
+   75% {background-color: rgba(255, 204, 0, 0.6);}
+   100% {background-color: rgba(61, 153, 112, 0.6);}
+}
+
+.circle4{
+   height: 100px;
+   width: 100px;
+   border-radius: 50%;
+   background-color: rgba(61, 153, 112, 0.4);
+   animation-name: test4;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes test4{
+   0% {background-color: rgba(61, 153, 112, 0.4);}
+   13%{background-color: rgba(255, 13, 0, 0.4);}
+   25% {background-color: rgba(61, 153, 112, 0.4)}
+   37% {background-color: rgba(255, 1, 221, 0.4);}
+   50% {background-color: rgba(72, 65, 156, 0.4);}
+   63% {background-color: rgba(53, 255, 2, 0.4);}
+   75% {background-color: rgba(61, 153, 112, 0.4);}
+   88% {background-color: rgba(3,238, 255, 0.4);}
+   100% {background-color: rgba(61, 153, 112, 0.4);}
+}
+
+.circle5{
+   height: 50px;
+   width: 50px;
+   border-radius: 50%;
+   background-color: rgba(61, 153, 112, 0.2);
+   animation-name: test5;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes test5{
+   0% {background-color: rgba(61, 153, 112, 0.2);}
+   6% {background-color: rgba(255, 246, 244, 0.2);}
+   13% {background-color: rgba(255, 13, 0, 0.2);}
+   18% {background-color: rgba(153, 1, 255, 0.2);}
+   25% {background-color: rgba(61, 153, 112, 0.2)}
+   30% {background-color: rgba(149, 255, 0, 0.2);}
+   37% {background-color: rgba(255, 1, 221, 0.2);}
+   42% {background-color: rgba(255, 0, 111, 0.2);}
+   50% {background-color: rgba(72, 65, 156, 0.2);}
+   56% {background-color: rgba(3, 255, 150, 0.2);}
+   63% {background-color: rgba(53, 255, 2, 0.2);}
+   69% {background-color: rgba(183, 255, 1, 0.2);}
+   75% {background-color: rgba(61, 153, 112, 0.2);}
+   81% {background-color: rgba(255, 83, 183, 0.2);}
+   88% {background-color: rgba(3,238, 255, 0.2);}
+   94% {background-color: rgba(53, 255, 2, 0.2);}
+   100% {background-color: rgba(61, 153, 112, 0.2);}
+}
+
+h1{
+   font-family: Gotham;
+   color: white;
+   text-align: right;
+   font-size: 190px;
+   margin-right: 50px;
+   padding-top: 200px;
+   padding-bottom: collapse;
+}
+
+h2{
+   font-family: Gotham;
+   color: white;
+   text-align: right;
+   font-size: 70px;
+   margin-right: 50px;
+   padding-bottom: 30px;
+}
+
+h3{
+   font-family: Gotham;
+   color: white;
+   text-align: right;
+   font-size: 50px;
+   margin-right: 50px;
+   padding-bottom: 30px;
+}
+
+p{
+   font-family: Gotham;
+   color: white;
+   text-align: right;
+   margin-right: 50px;
+   margin-left: 50px;
+
+}
+
+body{
+   background-color: black;
+}
+
+table{
+   position: absolute;
+   margin-top: 30px;
+   margin-left: 30px;
+}
+
